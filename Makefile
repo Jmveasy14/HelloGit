@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 signals: signal.c
 	gcc signal.c -o signalab 
 
@@ -22,3 +23,13 @@ clean:
 	rm -f $(TARGETS)
 
 .PHONY all clean
+=======
+prog1: main.c
+	gcc main.c -o prog1
+
+prog2: main2.c
+	gcc main2.c -o prog2
+
+my3proc: main3.c
+	gcc main3.c -o my3proc
+>>>>>>> 85edc29929bb73ea9a9f562d260603f6528c9612
